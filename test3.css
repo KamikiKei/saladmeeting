@@ -1,0 +1,357 @@
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+
+
+
+
+
+
+html{
+    font-family: "Noto Sans JP", sans-serif;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.pop{ font-family: "Poppins", sans-serif;}
+
+.container{
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header {
+    padding: 27px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+.logo span{
+    color: #92e545;
+}
+.header_menu li {
+    margin-left: 40px
+}
+.header_menu li a{ 
+    transition: 3s;
+}
+.header_menu li a:hover{
+    color: #92e545;
+    transition: 3s;
+}
+
+#hero {
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+#hero::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: 1;
+    border-radius: 30px;
+}
+.hero_inner {
+    z-index: 2;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.hero_inner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hero_inner h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #80ba4a;
+}
+.sub-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+.sub-title2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.colum-2{
+    width: 45%;
+    margin-bottom: 10%;
+    font-size: 18px;
+}
+.colum-3{
+    width: 50%;
+    font-size: 20px;
+}
+.text{
+    line-height: 2;
+}
+.concept-img{ 
+    background-image: url(images/concept.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 525px;
+    height: 330px;
+    right: 0;
+    border-radius: 30px;
+}
+.heading {
+    font-family: "Dancing Script",cursive;
+    font-size: 200px;
+    font-weight: 700;
+    color: #80ba4a;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-15%);
+    z-index: -1;
+}
+.buiseness-img{
+    background-image: url(images/service.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 270px;
+    right: 0;
+    border-radius: 30px;
+}
+.recipe-img{
+    background-image: url(images/recipe.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 270px;
+    right: 0;
+    border-radius: 30px;
+}
+.event-img{
+    background-image: url(images/event.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 270px;
+    right: 0;
+    border-radius: 30px;
+}
+.heading2 {
+    font-family: "Dancing Script",cursive;
+    font-size: 200px;
+    font-weight: 700;
+    color: #80ba4a;
+    opacity: 0.15;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateY(-150%);
+}
+.heading3{
+    font-family: "Dancing Script",cursive;
+    font-size: 140px;
+    font-weight: 700;
+    color: #80ba4a;
+    opacity: 0.15;
+    position: relative;
+    top: 0;
+    left: 30px;
+    transform: translateY(-160%);
+}
+#company {
+    margin-bottom: 120px;
+}
+#company dl {
+  max-width: 900px;
+  margin-left: auto;
+}
+#company dt{
+    width: 30%;
+    padding: 48px 0;
+    font-weight: 500;
+    border-bottom: solid 1px #d2ecba;
+}
+#company dd {
+    width: 70%;
+    padding: 48px 0;
+    border-bottom: solid 1px #d2ecba;
+}
+dd {
+    margin-left: 0;
+}
+.colum-a {
+  background-image: url(images/bottom-a.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+  height: 225px;
+  margin: 1%;
+  border-radius: 30px;
+}
+.colum-b {
+  background-image: url(images/bottom-b.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 22%;
+  height: 160px;
+  margin: 1%;
+  border-radius: 30px;
+}
+.colum-c {
+  background-image: url(images/bottom-c.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 23%;
+  height: 130px;
+  margin: 1%;
+  border-radius: 30px;
+}
+.colum-d {
+  background-image: url(images/bottom-d.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 23%;
+  height: 180px;
+  margin: 1%;
+  border-radius: 30px;
+}
+.f {
+  align-items: center;
+}
+
+
+footer{
+  text-align: center;
+  margin: 90px 0;
+}
